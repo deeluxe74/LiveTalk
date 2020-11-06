@@ -1,0 +1,164 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    display: table;
+}
+
+span {
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem!important;
+    text-align: left;
+}
+
+li {
+    font-weight: 100;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+svg:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.card-header {
+    background-color: rgb(2, 200, 108);
+}
+
+.navbar-nav {
+    padding: 0!important;
+}
+
+.bg-white {
+    background-color: white;
+}
+.bg-grey {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white!important;
+}
+
+.blue {
+    background-color: rgb(100, 168, 224)!important;
+}
+
+.profil-picture {
+    width: 10vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.btn-link {
+    font-size: 0.8rem;
+    color: inherit;
+    &:hover {    
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
+
+/* CHAT */
+.bloc1 {
+    box-shadow: 8px 10px 8px 0px rgba(0,0,0,0.4);
+    max-width: 10vw;
+}
+
+.bloc2 {
+    z-index: 1;
+    box-shadow: 8px 10px 8px 0px rgba(0,0,0,0.4);
+}
+
+.chatbox {
+    height: 60vh;
+    padding: 0 20vw;    
+}
+
+.badge-info {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.content-chat {
+    overflow: scroll;
+    height: 50vh;
+}
+
+.input-chat {
+    position: relative;
+    box-shadow: 0px -5px 8px 0px rgba(0,0,0,0.2);
+}
+
+.arrow-send {
+    z-index: 5;
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+}
+
+textarea {
+    font-size: 1.1rem;
+    border: none;
+    width: 100%;
+    min-height: 10vh;
+    &:focus {
+        outline: none;
+    }
+}
+
+.focus { 
+    background-color: rgb(0, 174, 255);
+}
+
+.message-me {
+    background-color: rgb(113, 204, 246);
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin: 1% auto;
+}
+
+.message-other {
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin: 1% auto;
+}
